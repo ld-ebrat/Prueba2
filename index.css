@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+nav {
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  left: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+nav img {
+  width: 4.5rem;
+}
+
+a:hover{
+  cursor: pointer;
+  color: rgb(228, 143, 143);
+}
+.social {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 40%;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  transition: width 0.5s;
+}
+
+.social img {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.git {
+  background-color: rgb(105, 105, 105);
+}
+
+.inst {
+  background: linear-gradient(to bottom left, #af01ff, #ff3c00, #fffb00);
+}
+
+.lin {
+  background-color: rgb(33, 92, 255);
+}
+
+.social a:hover {
+  width: 80px;
+  transition: width 0.5s;
+}
+
+#Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5%;
+  width: 100%;
+  height: 500px;
+}
+
+.about {
+  width: 50%;
+}
+
+.img img {
+  width: 350px;
+  border-style: dashed;
+  border-radius: 50%;
+  border-color: black;
+}
+
+#Skills {
+  display: flex;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-skills {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+#Services {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.container-services {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cs-children {
+  width: 25%;
+  border-color: black;
+  border-style: dashed;
+  margin: 10px;
+  padding: 10px;
+}
+
+#Contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form *{
+  margin: 1%;
+}
+.send-mess {
+  display: block;
+  border-style: solid;
+  border-color: #777777;
+  border-radius: 25px;
+  width: 150px;
+  height: 35px;
+  font-size: 16px;
+}
+
+.send-mess:hover{
+  background-color: rgb(228, 143, 143);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.div-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+input, textarea{
+  border: none;
+}
+
+textarea{
+  width: 95%;
+  margin: 0;
+  margin-top: 20px;
+  border: solid 1px black;
+}
+
+.div-form input {
+  width: 45%;
+  margin-bottom: 0;
+  outline: none;
+}
+
+.inps-user{
+  margin-bottom: 0;
+}
+.inps-dat{
+  margin-bottom: 0;
+}
+hr{
+  width: 45%;
+}
+
+.hrs{
+  margin: 0;
+}
+
+.foot-contact a{
+  color: #777777;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #000000;
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer button{
+  display: flex;
+  width: 40px;
+  border:  solid 1px aqua;
+  background-color: aqua;
+  border-radius: 50%;
+  justify-content: center;
+}
